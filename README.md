@@ -1,31 +1,21 @@
-# 🧩 Atelier 1 – Exercice 1 : Arbre de Merkle
-Exemple d'execution :
-===== MERKLE TREE BASIQUE =====
-Transactions initiales :
- - Alice -> Bob : 5 BTC
- - Bob -> Charlie : 2 BTC
- - Charlie -> Dave : 1 BTC
- - Dave -> Eve : 0.5 BTC
+# 🧩 Atelier 1 – Blockchain Concepts (Merkle Tree, PoW & PoS)
 
-Niveau 1 (4 noeuds):
-  45c638d854f19780
-  0745a2d06694ad7c
-  9f2d26490a998f09
-  c4c0e57c3c86ef2f
+## 🎯 Objectif du TP
+Ce travail pratique a pour but de comprendre les **mécanismes fondamentaux de la blockchain** à travers trois exercices progressifs :
 
-Niveau 2 (2 noeuds):
-  a5541c967d89689e
-  134bdea12025f349
+1. **Arbre de Merkle (Ex1)**  
+   → Calculer la racine de Merkle à partir d’un ensemble de transactions pour vérifier l’intégrité des données.
 
-===== MERKLE TREE CONSTRUIT =====
-Merkle Root final : 39f5cd8e5aef4be5
+2. **Proof of Work (Ex2)**  
+   → Simuler le minage d’un bloc à l’aide d’un algorithme de hachage et d’un niveau de difficulté défini.
 
-===== TEST : Modification d’une transaction =====
-Nouvelle Merkle Root : 349c87533f8868ab
-(Remarque : la racine change complètement -> preuve d'intégrité)
+3. **Proof of Stake (Ex3)**  
+   → Mettre en place un système de sélection de validateur basé sur la mise (stake) de chaque participant.
 
-===== TEST : Nombre impair de transactions =====
-Merkle Root (3 transactions) : 529e3c84560273e6
+4. **Mini Blockchain (Ex4)**  
+   → Combiner les concepts précédents pour construire une mini blockchain complète avec Merkle Root, Proof of Work, et validation de la chaîne.
+
+
 
 
 
